@@ -1,4 +1,6 @@
 <?php
+use Illuminate\Support\Facades\Route;
+use Illuminate\View\ViewServiceProvider;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,3 +16,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('hola', function () {
+    return view ('hola');
+});
+
+
+
