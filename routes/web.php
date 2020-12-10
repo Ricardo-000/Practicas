@@ -21,5 +21,6 @@ Route::get('hola', function () {
     return view ('hola');
 });
 
+Route::get('hello', 'HelloController@index');
 
 
